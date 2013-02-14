@@ -4,7 +4,7 @@ NAME
 SYNOPSIS
         use Scalar::DDie;
 
-        ddie($var);
+        say ddie($var);
 
 DESCRIPTION
     Scalar::DDie checks the scalar value. If the value is not defined then
